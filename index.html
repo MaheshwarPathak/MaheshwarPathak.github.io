@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maheshwar Pathak | Frontend Web Developer</title>
+    <meta name="description" content="Portfolio of Maheshwar Pathak - 2nd year CSE student at KIET Group of Institutions, seeking web development internships.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="navbar__container">
+            <a href="#home" class="navbar__logo">MP</a>
+            <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+            </button>
+            <nav class="navbar__menu" id="navMenu">
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a href="#home" class="navbar__link">Home</a></li>
+                    <li class="navbar__item"><a href="#about" class="navbar__link">About</a></li>
+                    <li class="navbar__item"><a href="#skills" class="navbar__link">Skills</a></li>
+                    <li class="navbar__item"><a href="#projects" class="navbar__link">Projects</a></li>
+                    <li class="navbar__item"><a href="#achievements" class="navbar__link">Achievements</a></li>
+                    <li class="navbar__item"><a href="#contact" class="navbar__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <p class="hero__greeting">Hello, I'm</p>
+                    <h1 class="hero__title">Maheshwar Pathak</h1>
+                    <p class="hero__subtitle">CSE Student & Frontend Web Developer</p>
+                    <p class="hero__description">
+                        2nd-year CSE student at KIET Group of Institutions, building clean and responsive web experiences using HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="#" class="btn btn--secondary">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__image-placeholder">
+                        <span>MP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section__container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>
+                            I'm a 2nd-year B.Tech Computer Science & Engineering student at KIET Group of Institutions with a strong passion for web development. I enjoy creating clean, user-friendly, and responsive websites that deliver great experiences.
+                        </p>
+                        <p>
+                            My focus is on frontend development, where I work with HTML, CSS, and JavaScript to bring designs to life. I'm constantly learning new technologies and improving my skills. <strong>I'm actively seeking web development internships and future placement opportunities</strong> where I can contribute and grow as a developer.
+                        </p>
+                    </div>
+                    <div class="about__details">
+                        <div class="about__detail-item">
+                            <span class="about__detail-label">Name</span>
+                            <span class="about__detail-value">Maheshwar Pathak</span>
+                        </div>
+                        <div class="about__detail-item">
+                            <span class="about__detail-label">College</span>
+                            <span class="about__detail-value">KIET Group of Institutions</span>
+                        </div>
+                        <div class="about__detail-item">
+                            <span class="about__detail-label">Branch</span>
+                            <span class="about__detail-value">Computer Science & Engineering</span>
+                        </div>
+                        <div class="about__detail-item">
+                            <span class="about__detail-label">Year</span>
+                            <span class="about__detail-value">2nd Year</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section__container">
+                <h2 class="section__title">Skills</h2>
+                <div class="skills__grid">
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Languages & Core</h3>
+                        <div class="skills__badges">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">C++</span>
+                        </div>
+                    </div>
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Tools & Platforms</h3>
+                        <div class="skills__badges">
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">Chrome DevTools</span>
+                            <span class="skill-badge">Figma</span>
+                        </div>
+                    </div>
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Currently Learning</h3>
+                        <div class="skills__badges">
+                            <span class="skill-badge skill-badge--learning">React</span>
+                            <span class="skill-badge skill-badge--learning">Node.js</span>
+                            <span class="skill-badge skill-badge--learning">DSA in C++</span>
+                            <span class="skill-badge skill-badge--learning">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section__container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects__grid">
+                    <!-- Project 1 - E-commerce Clone -->
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-card__placeholder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Myntra-Style E-commerce UI Clone</h3>
+                            <p class="project-card__description">
+                                A pixel-perfect clone of the Myntra e-commerce interface featuring product grids, filters, and cart functionality. Built to practice real-world UI development.
+                            </p>
+                            <p class="project-card__tech">Tech: HTML, CSS, JavaScript</p>
+                            <div class="project-card__links">
+                                <a href="#" class="btn btn--small btn--primary">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-card__placeholder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Task Manager App</h3>
+                            <p class="project-card__description">
+                                A clean and functional to-do application with local storage persistence, task categories, and deadline tracking. Learned DOM manipulation and state management.
+                            </p>
+                            <p class="project-card__tech">Tech: HTML, CSS, JavaScript</p>
+                            <div class="project-card__links">
+                                <a href="#" class="btn btn--small btn--primary">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-card__placeholder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Weather Dashboard</h3>
+                            <p class="project-card__description">
+                                A weather application that fetches real-time data from a weather API, displaying current conditions and forecasts. First experience working with external APIs.
+                            </p>
+                            <p class="project-card__tech">Tech: HTML, CSS, JavaScript, API</p>
+                            <div class="project-card__links">
+                                <a href="#" class="btn btn--small btn--primary">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-card__placeholder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Portfolio Website</h3>
+                            <p class="project-card__description">
+                                This personal portfolio showcasing my skills, projects, and journey as a developer. Built with semantic HTML, modern CSS, and vanilla JavaScript.
+                            </p>
+                            <p class="project-card__tech">Tech: HTML, CSS, JavaScript</p>
+                            <div class="project-card__links">
+                                <a href="#" class="btn btn--small btn--primary">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5 -->
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-card__placeholder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Landing Page Collection</h3>
+                            <p class="project-card__description">
+                                A collection of responsive landing pages for various fictional businesses. Focused on modern layouts, CSS Grid, and Flexbox mastery.
+                            </p>
+                            <p class="project-card__tech">Tech: HTML, CSS</p>
+                            <div class="project-card__links">
+                                <a href="#" class="btn btn--small btn--primary">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 6 -->
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-card__placeholder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Quiz Application</h3>
+                            <p class="project-card__description">
+                                An interactive quiz app with multiple categories, score tracking, and a timer feature. Great practice for JavaScript logic and DOM events.
+                            </p>
+                            <p class="project-card__tech">Tech: HTML, CSS, JavaScript</p>
+                            <div class="project-card__links">
+                                <a href="#" class="btn btn--small btn--primary">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements" id="achievements">
+            <div class="section__container">
+                <h2 class="section__title">Achievements & Activities</h2>
+                <div class="achievements__timeline">
+                    <div class="achievement-item">
+                        <div class="achievement-item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        </div>
+                        <div class="achievement-item__content">
+                            <h3 class="achievement-item__title">Multiple Web Projects</h3>
+                            <p class="achievement-item__description">Built 10+ mini-projects using HTML, CSS, and JavaScript, including responsive layouts and interactive web applications.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                        </div>
+                        <div class="achievement-item__content">
+                            <h3 class="achievement-item__title">DSA Problem Solving</h3>
+                            <p class="achievement-item__description">Regularly solving data structures and algorithms problems on platforms like LeetCode and GeeksforGeeks to strengthen coding fundamentals.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <div class="achievement-item__content">
+                            <h3 class="achievement-item__title">College Coding Events</h3>
+                            <p class="achievement-item__description">Participated in multiple college-level coding competitions and hackathons, collaborating with peers on challenging problems.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                        </div>
+                        <div class="achievement-item__content">
+                            <h3 class="achievement-item__title">Continuous Learning</h3>
+                            <p class="achievement-item__description">Completed online courses and tutorials on web development, staying updated with modern frontend practices and technologies.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        </div>
+                        <div class="achievement-item__content">
+                            <h3 class="achievement-item__title">Active GitHub Profile</h3>
+                            <p class="achievement-item__description">Maintaining an active GitHub presence with regular commits, showcasing projects and contributing to open-source learning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section__container">
+                <h2 class="section__title">Get In Touch</h2>
+                <p class="contact__intro">Open to web development internships and future placement opportunities. Feel free to reach out!</p>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <div>
+                                <span class="contact__info-label">Email</span>
+                                <a href="mailto:maheshwar@example.com" class="contact__info-value">maheshwar@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact__info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            <div>
+                                <span class="contact__info-label">GitHub</span>
+                                <a href="#" class="contact__info-value" target="_blank" rel="noopener noreferrer">[GitHub Profile URL]</a>
+                            </div>
+                        </div>
+                        <div class="contact__info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            <div>
+                                <span class="contact__info-label">LinkedIn</span>
+                                <a href="#" class="contact__info-value" target="_blank" rel="noopener noreferrer">[LinkedIn Profile URL]</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" id="contactForm">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Name</label>
+                            <input type="text" id="name" name="name" class="form__input" placeholder="Your Name" required>
+                            <span class="form__error" id="nameError"></span>
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="your.email@example.com" required>
+                            <span class="form__error" id="emailError"></span>
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea id="message" name="message" class="form__input form__textarea" placeholder="Your message..." rows="5" required></textarea>
+                            <span class="form__error" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                        <div class="form__success" id="formSuccess">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Thank you! Your message has been sent successfully.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__copyright">&copy; Maheshwar Pathak 2026</p>
+            <div class="footer__socials">
+                <a href="#" class="footer__social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <a href="#" class="footer__social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
